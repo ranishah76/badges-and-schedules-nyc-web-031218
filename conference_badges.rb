@@ -4,7 +4,7 @@ end
 
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def batch_badge_creator(attendees) 
+def batch_badge_creator(attendees)
   attendees.all? { |name| puts "Hello my name is #{name}"}
-end 
-end 
+end
+end
